@@ -11,11 +11,11 @@ intents = discord.Intents.all()
 
 client = commands.Bot(command_prefix = "!", intents = intents)
 
-TOKEN = "MTA5MTQ3MjkzMTkyMzcxMDA4Mw.GUfV9b.zEGS7OPhJ11KYP9vhfh_pbHuyXTRjKv0QgmSNA"
+TOKEN = ENV_DISCORD_TOKEN
 
 #####################################################################################################
 
-STEAM_KEY = "753D25017221CF96C6D14701B7B4752C"
+STEAM_KEY = ENV_STEAM_TOKEN
 
 steam = Steam(STEAM_KEY)
 
